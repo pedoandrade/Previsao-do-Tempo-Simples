@@ -60,7 +60,7 @@ const headleSearche = () => {
         <div>
           <div className="mt-4 d-flex align-itens-center">
             <div>
-              <img src={previsao.current.condition.icon}/>
+              <img src={previsao.current.condition.icon} alt="icon"/>
             </div>
             <div>
               <h3>{previsao.current.condition.text}</h3>
